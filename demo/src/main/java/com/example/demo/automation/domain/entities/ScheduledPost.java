@@ -23,6 +23,7 @@ public class ScheduledPost {
     public enum PostStatus {
         PENDING,
         POSTED,
+        PROCESSING,
         FAILED
     }
 }
