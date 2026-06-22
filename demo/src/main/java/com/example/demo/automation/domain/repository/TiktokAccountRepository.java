@@ -1,5 +1,12 @@
 package com.example.demo.automation.domain.repository;
 
-public class TiktokAccountRepository {
+import java.util.Optional;
+import java.util.UUID;
 
+import com.example.demo.automation.domain.entities.TiktokAccount;
+
+public interface TiktokAccountRepository {
+    TiktokAccount save(TiktokAccount tiktokAccount);
+
+    Optional<TiktokAccount> findById(UUID idAccount);
 }

@@ -10,7 +10,7 @@ import java.time.LocalDateTime;
 @Data
 @Builder
 public class ScheduledPost {
-    private UUID idSale;
+    private UUID idPost;
     private String videoPath;
     private String caption;
     private String affiliateLink;

@@ -1,5 +1,5 @@
 package com.example.demo.automation.domain.repository;
 
-public class UserRepository {
+public interface UserRepository {
 
 }
