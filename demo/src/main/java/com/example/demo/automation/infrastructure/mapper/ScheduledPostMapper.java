@@ -1,8 +1,11 @@
 package com.example.demo.automation.infrastructure.mapper;
 
+import org.springframework.stereotype.Component;
+
 import com.example.demo.automation.domain.entities.ScheduledPost;
 import com.example.demo.automation.infrastructure.persistence.SchedulePostEntity;
 
+@Component
 public class ScheduledPostMapper {
     public SchedulePostEntity toEntity(ScheduledPost postDomain) {
         if (postDomain == null) {
