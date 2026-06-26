@@ -25,7 +25,7 @@ public class ScheduledPostMapper {
         return scheduleEntity;
     }
 
-    public ScheduledPost domain(SchedulePostEntity entity) {
+    public ScheduledPost toDomain(SchedulePostEntity entity) {
         if (entity == null) {
             return null;
         }

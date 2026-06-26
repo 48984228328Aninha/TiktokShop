@@ -14,5 +14,6 @@ public class SaleNotificationDto {
     private String buyerName;
     private String saleAmount;
     private String comissionAmount;
+    private String saleDate;
 
 }
